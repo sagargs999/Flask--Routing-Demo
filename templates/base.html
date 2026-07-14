@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}My Website{% endblock %}</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;}
+                header {
+                background-color: black; color: white; padding: 20px; }
+                footer {
+                background-color: yellow; padding: 10px; margin-top: 20px; }
+
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <h2>MY WEBSITE </h2>
+            <nav>
+                <a href = "/">Home </a>
+                <a href = "/about">About </a>
+
+            </nav>
+        </header>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
