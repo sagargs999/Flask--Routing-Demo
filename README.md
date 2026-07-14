@@ -10,7 +10,9 @@ A simple Flask web application that demonstrates routing between multiple pages 
 - About page
 - Flask routing
 - HTML templates
+- Jinja2 template rendering
 - Beginner-friendly project
+
 
 ## Project Structure
 
@@ -61,7 +63,8 @@ http://127.0.0.1:5000/
 
 - Python
 - Flask
-- HTML
+- Jinja2
+- HTML5
 
 ## Author
 
